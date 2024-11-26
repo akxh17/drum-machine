@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body,#root{
+  height:100%;
+  font-family: "Silkscreen", sans-serif;
+}
+.wrapper--container{
+  background-color:#F1F6F9;
+  display:flex;
+  height:100%;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.main--container{
+  background-color:#535C91;
+  min-width:800px;
+  height:400px;
+  display:flex;
+  justify-content:space-around;
+  border:5px solid #FDAF7B;
+  box-shadow:0px 10px 10px rgb(0,0,0,0.8);
+}
+
+.audio--button--container{
+  width:450px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#535C91;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.audio--button{
+  background-color:#18122B;
+  color:white;
+  font-size:25px;
+  margin:10px;
+  width:120px;
+  height:100px;
+  cursor:pointer;
+  box-shadow:10px 0px 10px rgb(0,0,0,0.8);
+  font-family: "Silkscreen", sans-serif;
+}
+
+.track--button--container{
+  width:175px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+
+.track--name{
+  width:175px;
+  border: 2px solid #FDAF7B;
+  padding:10px;
+  color:white;
+  text-align:center;
+}
+
+.track--button{
+  height:40px;
+  cursor:pointer;
+  font-family: "Silkscreen", sans-serif;
+  padding:10px;
+  box-shadow:10px 0px 10px rgb(0,0,0,0.8);
+  background-color:#FDAF7B;
+}
+
+.power--button--on{
+  font-size:40px;
+  color:#3ED625;
+}
+
+.power--button--off{
+  font-size:40px;
+  color:red;
+}
